@@ -1,0 +1,6 @@
+-r requirements.txt
+pandas==2.1.4
+numpy<2.0
+openpyxl
+xlrd
+odfpy
