@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+*.log
+
+# Node
+node_modules/
+dist/
+build/
+
+# Database
+*.db
+pgdata/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Data
+data/
+dataset/
+*.db
+*.sqlite
+
+# Docker
+.dockerignore
