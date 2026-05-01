@@ -9,7 +9,7 @@ services:
       - key: USE_REDIS
         value: "true"
       - key: PYTHON_VERSION
-        value: "3.11"
+        value: "3.11.5"
     disk:
       name: data
       mountPath: /data
@@ -20,6 +20,6 @@ databases:
     databaseName: villages_db
     user: postgres
     plan: free
-    
+
   - name: village-cache
     plan: free
